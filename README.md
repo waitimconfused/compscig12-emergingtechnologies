@@ -58,14 +58,12 @@ Create a shared document to show which technologies each person is researching a
 - Each person should create their own branch of the repository and merge it into the main branch. Since each person is making their own unique research files, there should not be any merge conflicts here.
 - There should be an index.html file in the root directory of the repository. Each person should edit this page to link to their own research pages. This file can be very simple. This index file should be made before anyone clones the repository to prevent merge conflicts. The index.html file should look like this:
 
----
-# Emerging Technologies Group Project
-
-- Person 1 Name [links to person1Name.html](about:blank)
-- Person 2 Name [links to person2Name.html](about:blank)
-- Person 3 Name [links to person3Name.html](about:blank)
-- Person 4 Name [links to person4Name.html](about:blank)
----
+> # Emerging Technologies Group Project
+> 
+> - Person 1 Name [links to person1Name.html](about:blank)
+> - Person 2 Name [links to person2Name.html](about:blank)
+> - Person 3 Name [links to person3Name.html](about:blank)
+> - Person 4 Name [links to person4Name.html](about:blank)
 
 ## Marking Rubric
 
