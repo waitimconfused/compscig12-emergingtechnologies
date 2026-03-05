@@ -1,0 +1,32 @@
+@import url("./auto_layout.css");
+
+:root {
+	--background-light: white;
+	--background-dark: black;
+	
+	--color-light: black;
+	--color-dark: white;
+
+	color-scheme: light dark;
+}
+
+body {
+	margin: 0px;
+}
+
+nav {
+	padding: 8px 7.5%;
+}
+header, section, footer {
+	padding: 16px 15%;
+}
+
+body,
+header, section, footer {
+	background: light-dark( var(--background-light), var(--background-dark) );
+	color: light-dark( var(--background-dark), var(--background-light) );
+}
+
+nav, footer {
+	color-scheme: dark;
+}
