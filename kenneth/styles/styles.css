@@ -1,24 +1,5 @@
 @import url("./auto-layout.css");
-
-:root {
-	--background-light: white;
-	--background-dark: black;
-	
-	--color-light: black;
-	--color-dark: white;
-
-	color-scheme: light dark;
-}
-
-* {
-	--background: light-dark( var(--background-light), var(--background-dark) );
-	--color: light-dark( var(--background-dark), var(--background-light) );
-}
-
-.swap-colours {
-	--background: light-dark( var(--background-dark), var(--background-light) );
-	--color: light-dark( var(--background-light), var(--background-dark) );
-}
+@import url("./colours.css");
 
 body {
 	margin: 0px;
@@ -28,7 +9,7 @@ nav {
 	padding: 8px 7.5%;
 }
 header, section, footer {
-	padding: 16px 15%;
+	padding: 16px 10%;
 }
 
 body,
@@ -37,6 +18,29 @@ header, section, footer {
 	color: var(--color);
 }
 
+.card {
+	display: block;
+	padding: 16px;
+	border: 2px solid var(--green);
+	border-radius: 8px;
+}
+
+a.card:hover {
+	box-shadow: 0 4px 16px 0 color-mix(in srgb, var(--green) 50%, transparent);
+}
+
 a {
 	color: #8C8CFF;
+	cursor: pointer;
+}
+
+a.no-link {
+	text-decoration: none;
+	color: var(--color);
+}
+
+ul.no-mark,
+ol.no-mark {
+	list-style: none;
+	padding-left: 0;
 }
