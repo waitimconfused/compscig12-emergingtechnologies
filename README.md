@@ -16,10 +16,10 @@ You will research up to 4 emerging computer technologies at a superficial level,
 An emerging computer technology is a technology that is still being developed and greatly improved. (There is overlap with theoretical computing and collaborative industries – you may use your previous research/answers for this assignment). Examples of emerging computer technologies include:
 
 - Artificial intelligence
-- Generative AI
-- Agentic AI
-- Physical AI
-- Computer Vision
+  - Generative AI
+  - Agentic AI
+  - Physical AI
+  - Computer Vision
 - Quantum computing
 - Neuromorphic computing
 - Edge computing
