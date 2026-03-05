@@ -1,4 +1,4 @@
-@import url("./auto_layout.css");
+@import url("./auto-layout.css");
 
 :root {
 	--background-light: white;
@@ -35,4 +35,8 @@ body,
 header, section, footer {
 	background: var(--background);
 	color: var(--color);
+}
+
+a {
+	color: #8C8CFF;
 }
