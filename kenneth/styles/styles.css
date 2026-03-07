@@ -8,8 +8,16 @@ body {
 nav {
 	padding: 8px 7.5%;
 }
+
 header, section, footer {
 	padding: 16px 10%;
+}
+
+header {
+	box-shadow:
+		inset -5vw 0 0 0 var(--background),
+		inset 5vw 0 0 0 var(--background),
+		inset 0 -1px 0 0 var(--color);
 }
 
 body,
@@ -43,4 +51,23 @@ ul.no-mark,
 ol.no-mark {
 	list-style: none;
 	padding-left: 0;
+}
+
+blockquote {
+	background: light-dark( var(--blue-dark), var(--blue-light) );
+	padding: 16px 16px 16px 32px;
+	box-shadow:
+		inset 8px 0 0 0 light-dark( var(--blue-light), var(--blue-dark) ),
+		inset 16px 0 0 0 var(--background);
+}
+
+time {
+	font-family: monospace;
+}
+
+img {
+	position: relative;
+	left: 50%;
+	translate: -50% 0;
+	border-radius: 32px;
 }
