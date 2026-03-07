@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Quattrocento";
+	font-weight: normal;
+	src: url("./Quattrocento-Regular.ttf");
+}
+@font-face {
+	font-family: "Quattrocento";
+	font-weight: bold;
+	src: url("./Quattrocento-Bold.ttf");
+}
