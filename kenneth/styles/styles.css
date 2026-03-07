@@ -65,7 +65,7 @@ time {
 	font-family: monospace;
 }
 
-img {
+section > img {
 	position: relative;
 	left: 50%;
 	translate: -50% 0;
