@@ -4,8 +4,10 @@
 @import url("../fonts/Poppins.css");
 
 body {
+	position: relative;
 	margin: 0px;
 	font-family: "Poppins";
+	min-height: 100vh;
 }
 
 nav {
@@ -27,6 +29,13 @@ body,
 header, section, footer {
 	background: var(--background);
 	color: var(--color);
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
