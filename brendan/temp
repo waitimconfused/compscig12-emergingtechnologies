@@ -6,7 +6,7 @@
 				margin: 0;
 				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 				color: white;
-				background-image: linear-gradient(45deg,black 30%, green);
+				background-image: linear-gradient(45deg,black 30%, pink);
                 min-height: 100vh;
             }
             .topnav {
@@ -34,7 +34,6 @@
                 justify-content: space-between;
                 margin-top: 7%;
                 margin-left: 8%;
-                gap: 1.2rem;
             }
             .image-container {
                 width: 94%;
@@ -60,29 +59,44 @@
             <a href="./green_technology.html">Green Technology</a>
         </div>
         <div class="grid">
-            <div>
+            <div class="container">
                 <div style="width: 90%;">
-                    <h1 style="font-size: 5rem; color: green;">Green Technology</h1>
-                    <h2 style="font-size: 2rem; color: green;">What is Green Technology</h2>
-                    <p style="font-size: 1.2rem;">
+                    <h1 style="font-size: 5rem; color: pink;">Green Technology</h1>
+                    <h2 style="font-size: 2rem; color: pink;">What is Green Technology</h2>
+                    <p style="font-size: 1.5rem;">
                         Green technology refers to technology and technology tools that are environmentally friendly, such as renewable
                         energy technology, electric vehicle technology, and energy-saving technology. It plays a crucial role in reducing
                         pollution in the environment.
                     </p>
                     
-                    <h2 style="color: green;">Positives</h2>
-                    <p style="font-size: 1.2rem;">
+                    <h1>Green Technology</h1>
+                    <h2>Positives</h2>
+                    <p>
                         The positive effects of green technology include economic growth. The World Economic Forum indicates that the world's
                         green economy is now valued at over $5 trillion and is likely to reach over $7 trillion by the year 2030, with the
                         revenues from the green economy growing at twice the rate of conventional businesses, hence helping companies attract
                         investments, reduce capital costs, and also create jobs in the renewable energy sector.
                     </p>
                     
-                    <p style="font-size: 1.2rem;">
+                    <p>
                         Another positive effect of green technology is the conservation of natural resources. Green technology helps in
                         conserving natural resources through the use of renewable energy, efficient energy, and effective waste management
                         technologies. Green technology helps in the development of a circular economy, which enables the sustainability of the
                         environment for future generations and helps in meeting the needs of the current population.
+                    </p>
+                    <h2>Negatives</h2>
+                    <p>
+                        The negative effect is that green technologies come with a high price tag. According to the report, it is estimated that
+                        20% of key deep decarbonization technologies, such as low-carbon hydrogen and carbon capture, still have major cost
+                        disadvantages and will require significant support to become cost-competitive, thereby slowing their development,
+                        especially in developing countries, and limiting access to the full benefits of green technologies.
+                    </p>
+                    
+                    <p>
+                        Despite the intentions of green technologies to reduce greenhouse gas emissions, there is also the issue of the amount of
+                        waste generated when the lifespan of the technology is reached. The solar panels, the blades of the wind turbines, and the
+                        batteries of the electric vehicles contain harmful chemicals such as lead and cadmium, which pollute the soil and water
+                        when the technology is discarded and recycling facilities are limited.
                     </p>
                 </div>
             </div>
@@ -91,29 +105,8 @@
                 <img src="https://atpconnect.org/wp-content/uploads/2024/09/green-technology.jpg">
             </div>
 
-            <div class="image-container" style="height: 410px;">
-                <img src="https://greenworksbio.com/wp-content/uploads/2025/08/5fe4a867-2c9c-4b52-95c7-b1c26e679c05-scaled.jpg">
-            </div>
-
-            <div style="width: 90%">
-                <h2 style="color: green;">Negatives</h2>
-                <p style="font-size: 1.2rem;">
-                    The negative effect is that green technologies come with a high price tag. According to the report, it is estimated that
-                    20% of key deep decarbonization technologies, such as low-carbon hydrogen and carbon capture, still have major cost
-                    disadvantages and will require significant support to become cost-competitive, thereby slowing their development,
-                    especially in developing countries, and limiting access to the full benefits of green technologies.
-                </p>
-                
-                <p style="font-size: 1.2rem;">
-                    Despite the intentions of green technologies to reduce greenhouse gas emissions, there is also the issue of the amount of
-                    waste generated when the lifespan of the technology is reached. The solar panels, the blades of the wind turbines, and the
-                    batteries of the electric vehicles contain harmful chemicals such as lead and cadmium, which pollute the soil and water
-                    when the technology is discarded and recycling facilities are limited.
-                </p>
-            </div>
-            
             <div>
-                <h1 style="color: green">References:</h1>
+                <h1 style="color: pink">References:</h1>
                 <a style="color: white;" href="https://www.ibm.com/think/topics/green-technology">What is green technology?</a>
                 <br>
                 <a style="color: white;" href="https://pollution.sustainability-directory.com/question/what-are-the-drawbacks-of-green-tech/">

@@ -1,11 +1,13 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <style>
             body {
 				margin: 0;
 				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 				color: white;
-				background-color: black;
+				background-image: linear-gradient(45deg,black 30%, gold);
+                min-height: 100vh;
             }
             .topnav {
                 overflow: hidden;
@@ -26,6 +28,24 @@
                 background-color: rgb(2, 148, 0);
                 color: white;
             }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin-top: 7%;
+                margin-left: 8%;
+            }
+            .image-container {
+                width: 94%;
+                height: 65vh;
+                margin-left: -3%;
+                margin-right: 7%;
+            }
+            .image-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         </style>
     </head>
 
@@ -38,13 +58,35 @@
             <a href="./extended_reality.html">Extended Reality</a>
             <a href="./green_technology.html">Green Technology</a>
         </div>
-        <br><br><br>
-        <h1>Bioinformatics</h1>
-        <p>
-            Bioinformatics involves the use of computers, software tools, and databases to generate large data sets that
-            utilize genomics and proteomics.This technology can benefit minority groups in Canada, such as individuals with rare
-            genetic conditions, by assisting scientists in studying their information to determine possible cures. Scientists can
-            study large sets of biological information to better understand health conditions in small groups of society.
-        </p>
+        <div class="grid">
+            <div>
+                <div style="width: 90%;">
+                    <h1 style="font-size: 5rem; color: gold;">Bioinformatics</h1>
+                    <h2 style="font-size: 2rem; color: gold;">What is Bioinformatics?</h2>
+                    <p style="font-size: 1.5rem;">
+                        Bioinformatics involves the use of computers, software tools, and databases to generate large data sets that
+                        utilize genomics and proteomics. 
+                    </p>
+
+                    <h2 style="font-size: 2rem; color: gold;">Impact on a Minority in Canada</h2>
+                    <p style="font-size: 1.5rem;">
+                        This technology can benefit minority groups in Canada, such as Indigenous Peoples with rare genetic conditions,
+                        by assisting scientists in studying their information to determine possible cures. Scientists can
+                        study large sets of biological information to better understand health conditions in other small groups of society.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="https://bioinformatics.georgetown.edu/wp-content/uploads/sites/442/2023/02/bioinformatics-16x9-1.jpg">
+            </div>
+
+            <div>
+                <h1 style="color: gold">References:</h1>
+                <a style="color: white;" href="https://www.scq.ubc.ca/what-is-bioinformatics/">WHAT IS BIOINFORMATICS?</a>
+                <br>
+                <a style="color: white;" href="https://genomecanada.ca/genomics/bioinformatics/">Bioinformatics and Artificial Intelligence to leverage predictive models of dairy production</a>
+            </div>
+        </div>
     </body>
 </html>

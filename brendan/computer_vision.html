@@ -6,7 +6,8 @@
 				margin: 0;
 				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 				color: white;
-				background-color: black;
+				background-image: linear-gradient(45deg,black 30%, lightblue);
+                min-height: 100vh;
             }
             .topnav {
                 overflow: hidden;
@@ -27,6 +28,24 @@
                 background-color: rgb(2, 148, 0);
                 color: white;
             }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin-top: 7%;
+                margin-left: 8%;
+            }
+            .image-container {
+                width: 94%;
+                height: 65vh;
+                margin-left: -3%;
+                margin-right: 7%;
+            }
+            .image-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
         </style>
     </head>
 
@@ -39,36 +58,37 @@
             <a href="./extended_reality.html">Extended Reality</a>
             <a href="./green_technology.html">Green Technology</a>
         </div>
-        <br><br><br>
-        <h1>Computer Vision</h1>
-        <p>
-            Computer vision is a subfield of AI that uses machine learning to analyze, process, and interpret visual data
-            like images and videos. In the Canadian society, this technology is commonly used in security cameras, traffic management
-            systems, as well as retail systems such as automated checkouts. While the systems have enhanced efficiency and safety,
-            there have also been concerns over the issue of privacy due to the collection of information from the population.
-        </p>
-        
-        <h1>Placeholder Sources Section:</h1>
-        <a href="https://montrealethics.ai/computer-vision-surveillance-and-social-control/#:~:text=Computer%20vision%20is%20watching%20you,that%20scares%20many%20of%20us?">
-            Computer Vision 1
-        </a>
-        
-        <a href="https://www.ibm.com/think/topics/computer-vision">Computer Vision 2</a>
-        
-        <a href="https://www.ibm.com/think/topics/confidential-computing#:~:text=Confidential%20computing%20is%20a%20cloud,use%20during%20processing%20or%20runtime.">
-            Confidential Computing 1
-        </a>
-        
-        <a href="https://www.scq.ubc.ca/what-is-bioinformatics/">Bioinformatics 1</a>
-        
-        <a href="https://genomecanada.ca/genomics/bioinformatics/">Bioinformatics 2</a>
-        
-        <a href="https://www.autodesk.com/design-make/articles/what-is-xr">Extended Reality 1</a>
-        
-        <a href="https://www.unesco.org/en/articles/immersive-technology-supports-education-developing-countries">Extended Reality 2</a>
-        
-        <a href="https://www.ibm.com/think/topics/green-technology">Green Technology 1</a>
-        <a href="https://pollution.sustainability-directory.com/question/what-are-the-drawbacks-of-green-tech/">Green Technology 2</a>
-        <a href="https://www.weforum.org/press/2025/12/the-multi-trillion-dollar-growth-opportunity-new-report-shows-green-economy-expected-to-surpass-7-trillion-in-annual-value-by-2030/">Green Technology 3</a>
+        <div class="grid">
+            <div class="container">
+                <div style="width: 90%;">
+                    <h1 style="font-size: 5rem; color: lightblue;">Computer Vision</h1>
+                    <h2 style="font-size: 2rem; color: lightblue;">What is Computer Vision?</h2>
+                    <p style="font-size: 1.5rem;">
+                        Computer vision is a subfield of AI that uses machine learning to analyze, process, and interpret visual data
+                        like images and videos.
+                    </p>
+
+                    <h2 style="font-size: 2rem; color: lightblue;">Impact on Majority of Canadian Society</h2>
+                    <p style="font-size: 1.5rem;">
+                        In the Canadian society, this technology is commonly used in security cameras, traffic management
+                        systems, as well as retail systems such as automated checkouts. While the systems have enhanced efficiency and safety,
+                        there have also been concerns over the issue of privacy due to the collection of information from the population.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="https://www.cyberdb.co/wp-content/uploads/2024/06/vis2.jpg">
+            </div>
+
+            <div>
+                <h1 style="color: lightblue">References:</h1>
+                <a style="color: white;" href="https://montrealethics.ai/computer-vision-surveillance-and-social-control/#:~:text=Computer%20vision%20is%20watching%20you,that%20scares%20many%20of%20us?">
+                    Computer vision, surveillance, and social control
+                </a>
+                <br>
+                <a style="color: white;" href="https://www.ibm.com/think/topics/computer-vision">What is computer vision?</a>
+            </div>
+        </div>
     </body>
 </html>
