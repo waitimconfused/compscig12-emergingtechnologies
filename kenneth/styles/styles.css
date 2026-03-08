@@ -21,6 +21,14 @@ nav {
 	gap: 16px;
 	width: max-content;
 }
+nav a {
+	scale: 1;
+	transition: scale 100ms ease-out;
+}
+nav a:hover {
+	scale: 1.25;
+	transition-timing-function: ease-in;
+}
 
 header, section, footer {
 	padding: 16px 10%;
