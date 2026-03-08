@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Edge Computing (Kenneth) | Emerging Technologies Group Research Project</title>
+	<link rel="stylesheet" href="./styles/styles.css">
+	<script src="./styles/footer-padding.js" defer></script>
+</head>
+<body>
+
+	<nav>
+		<a href="../index.html" title="Home page">
+			<img src="./assets/home.svg" alt="Home page">
+		</a>
+		<a href="./index.html" title="Kenneth's research section">
+			<img src="./assets/back.svg" alt="Kenneth's research section">
+		</a>
+	</nav>
+
+	<header>
+		<h1>Edge Computing</h1>
+		<p>
+			An architecture that combines a cloud service with
+			a computing device near the end user, so that it is
+			able to fulfill a portion of the service functionality
+			separately.
+		</p>
+	</header>
+
+	<section>
+		<h2>What is it?</h2>
+		<p>
+			Having a centralized cloud server means that sending and receiving
+			data between the server and users means high latency.
+			<br>
+			Instead, edge computing offers an alternative. Having a handful of
+			individual cloud servers (obtain referred to as <i>edge nodes</i>)
+			strategically located to minimize latency for each user.
+		</p>
+		<p>
+			This means that the user connects to the closest available node,
+			instead of a far away (and possibly busy) server. This closeness
+			is what lowers latency.
+		</p>
+	</section>
+
+	<section>
+		<h2>Usages</h2>
+		<ul>
+			<li>
+				<span>Nodes being close to the user</span>
+				<ul>
+					<li>
+						<b>Intelligent Load Balancing</b>
+						<p>
+							Edge nodes distribute requests based on location,
+							traffic, and server health.
+						</p>
+						<p>
+							What this means is, the probability of a given server
+							getting overwhelmed (and crashing) is extremely low.
+						</p>
+					</li>
+					<li>
+						<b>Reliability</b>
+						<p>
+							Because of <i>intelligent load balancing</i> meaning
+							that servers don't get overwhelmed, this increases the
+							reliability of the service for the users.
+						</p>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<span>
+					Alternative: The "near the end user" device <i>is</i> the device.
+					This means that the following are possible
+				</span>
+				<ul>
+					<li>
+						<b>Improved response time for voice processing</b>
+						<p>
+							Rather then sending clips of ones voice to the cloud,
+							the voice is first processed (on device) into text.
+							<br>
+							Only the text would be sent to the could.
+						</p>
+					</li>
+					<li>
+						<b>Offline availability</b>
+						<p>
+							We all know that apps you can only use online are annoying.
+							<br>
+							So, when the services can be done on-device, we all love it!
+						</p>
+					</li>
+					<li>
+						<b>Improved security and privacy</b>
+						<p>
+							On-device functionality replacing cloud usage means that
+							no data is sent across the network to big tech giants,
+							who eat up your data like a hungry child.
+						</p>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<img src="./assets/edge-nodes.png" alt="A simplified topology of cloud servers, edge nodes, and user devices">
+	</section>
+
+	<section>
+		<h2>Toi aussi, Spotify?</h2>
+		<p>
+			Spotify's got a <b>lot</b> of songs on their platform.
+			<br>
+			To help with steaming and downloading of the content, Spotify uses
+			edge computing.
+		</p>
+		<p>
+			Each node may have certain songs/tracks/albums
+			already cached, so it doesn't need to dig deep into a database to
+			retrieve the files.
+		</p>
+	</section>
+
+	<section>
+		<h2>Sources</h2>
+		<ul>
+			<li><a href="https://www.ibm.com/think/topics/edge-computing">What is edge computing?</a></li>
+			<li><a href="https://notionhive.com/blog/edge-computing-cdn-strategies">Edge Computing and CDN Strategies for Global Web Performance</a></li>
+			<li><a href="https://www.okoone.com/spark/technology-innovation/how-spotify-built-the-tech-behind-streaming-millions-of-songs/">How Spotify built the tech behind streaming millions of songs</a></li>
+		</ul>
+	</section>
+
+	<footer class="swap-colours auto-h top">
+		<div class="auto-v top-left">
+			<b>Emerging Technologies Group Research Project</b>
+			<span>Kenneth</span>
+		</div>
+		<a href="https://github.com/waitimconfused/compscig12-emergingtechnologies" target="_blank" class="auto-h center-left" style="flex-wrap: nowrap;">
+			<img src="./assets/github_white.svg" alt="GitHub:" height="16">
+			<span>waitimconfused/compscig12-emergingtechnologies</span>
+		</a>
+	</footer>
+</body>
+</html>

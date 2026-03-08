@@ -4,18 +4,84 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Kenneth | Emerging Technologies Group Research Project</title>
+	<link rel="stylesheet" href="./styles/styles.css">
+	<style>
+		li {
+			max-width: 500px;
+		}
+	</style>
+	<script src="./styles/footer-padding.js" defer></script>
 </head>
 <body>
-	
-	<h1>Kenneth</h1>
 
-	<ol>
-		<li><a href="./quantum.html">Quantum computing</a></li>
-		<li><a href="./edge.html">Edge computing</a></li>
-		<li><a href="./iot.html">Industrial Internet of Things (IoT)</a></li>
-		<li><a href="./multimodal.html">Multimodal User Interfaces</a></li>
-		<li><a href="./cryptography.html">Post-quantum Cryptography</a></li>
-	</ol>
+	<nav>
+		<a href="../index.html" title="Home page">
+			<img src="./assets/home.svg" alt="Home page">
+		</a>
+	</nav>
+	
+	<header>
+		<h1>Kenneth</h1>
+	</header>
+
+	<section>
+		<ol class="no-mark auto-h top-left">
+
+			<li><a href="./cryptography.html" class="no-link card">
+				<h2>Post-Quantum Cryptography</h2>
+				<p>
+					Quantum computers will be able to decrypt encrypted information.
+					<br>
+					<i>NIST</i> is creating defenses against such attacks through <i>Post-Quantum Cryptography (PQC)</i>.
+				</p>
+			</a></li>
+
+			<li><a href="./dna-storage.html" class="no-link card">
+				<h2>DNA-based Data Storage</h2>
+				<p>Encoding data (binary) into DNA for the long term</p>
+			</a></li>
+
+			<li><a href="./edge.html" class="no-link card">
+				<h2>Edge Computing</h2>
+				<p>
+					An architecture that combines a cloud service with
+					a computing device near the end user, so that it is
+					able to fulfill a portion of the service functionality
+					separately.
+				</p>
+			</a></li>
+
+			<li><a href="./iot.html" class="no-link card">
+				<h2>Industrial Internet of Things (IoT)</h2>
+				<p>
+					Refers to when sensors are embedded into physical
+					objects, then are connected through networks (wired
+					or wireless) that allow them to interact with
+					each other.
+				</p>
+			</a></li>
+
+			<li><a href="./multimodal.html" class="no-link card">
+				<h2>Multimodal User Interfaces</h2>
+				<p>
+					Provides the user with multiple modes of interacting
+					with a system, such as speech.
+				</p>
+			</a></li>
+
+		</ol>
+	</section>
+
+	<footer class="swap-colours auto-h top">
+		<div class="auto-v top-left">
+			<b>Emerging Technologies Group Research Project</b>
+			<span>Kenneth</span>
+		</div>
+		<a href="https://github.com/waitimconfused/compscig12-emergingtechnologies" target="_blank" class="auto-h center-left" style="flex-wrap: nowrap;">
+			<img src="./assets/github_white.svg" alt="GitHub:" height="16">
+			<span>waitimconfused/compscig12-emergingtechnologies</span>
+		</a>
+	</footer>
 
 </body>
 </html>
