@@ -68,6 +68,11 @@
 		background:#fafafa;
 		box-shadow: 5px 5px 30px;
 		border-radius: 10px;
+		opacity: 1;
+		animation-name: fadeInOpacity;
+		animation-iteration-count:1;
+		animation-timing-function: ease-in;
+		animation-duration: 3s;
 	}
 	.backButton{
 		position: absolute;
@@ -85,6 +90,15 @@
 		min-width: 326px;
 		max-height: 200px;
 		min-height: 200px;
+	}
+	
+	@keyframes fadeInOpacity {
+		0%	{
+			opacity: 0;
+		}
+		100% {
+			opacity:1;
+		}
 	}
 
 </style>
