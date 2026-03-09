@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <style>
+            body {
+				margin: 0;
+				font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+				color: white;
+				background-image: linear-gradient(45deg,black 30%, plum);
+                min-height: 100vh;
+            }
+            .topnav {
+                overflow: hidden;
+                background-color: rgb(63, 63, 63);
+            }
+            .topnav a {
+                float: left;
+                color: white;
+                text-align: center;
+                padding: 1.5% 2%;
+                font-size: 15px;
+            }
+            .topnav a:hover {
+                background-color: white;
+                color: black;
+            }
+            .topnav a.active {
+                background-color: rgb(2, 148, 0);
+                color: white;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-between;
+                margin-top: 7%;
+                margin-left: 8%;
+            }
+            .image-container {
+                width: 94%;
+                height: 65vh;
+                margin-left: -3%;
+                margin-right: 7%;
+            }
+            .image-container img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="topnav">
+            <a href="./index.html" class="active">Back</a>
+            <a href="./computer_vision.html">Computer Vision</a>
+            <a href="./confidential_computing.html">Confidential Computing</a>
+            <a href="./bioinformatics.html">Bioinformatics</a>
+            <a href="./extended_reality.html">Extended Reality</a>
+            <a href="./green_technology.html">Green Technology</a>
+        </div>
+        <div class="grid">
+            <div>
+                <div style="width: 90%;">
+                    <h1 style="font-size: 5rem; color: plum;">Confidential Computing</h1>
+                    <h2 style="font-size: 2rem; color: plum;">What is Confidential Computing?</h2>
+                    <p style="font-size: 1.5rem;">
+                        Confidential computing is the protection of data using cloud technology to control encryption keys and isolate
+                        sensitive data in a protected CPU.
+                    </p>
+
+                    <h2 style="font-size: 2rem; color: plum;">Impact on the World Economy</h2>
+                    <p style="font-size: 1.5rem;">
+                        This technology has the ability to affect the world economy by helping companies and
+                        financial institutions handle sensitive information securely through the cloud. This means that various companies across
+                        the world will be able to collaborate safely.
+                    </p>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <img src="https://futurumgroup.com/wp-content/uploads/2021/10/IBM-Confidential-Computing-.jpg">
+            </div>
+
+            <div>
+                <h1 style="color: plum">References:</h1>
+                <a style="color: white;" href="https://www.ibm.com/think/topics/confidential-computing#:~:text=Confidential%20computing%20is%20a%20cloud,use%20during%20processing%20or%20runtime.">
+                    What is confidential computing?
+                </a>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,199 @@
+.auto-h {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* width: 100%; */
+	gap: 16px;
+}
+.auto-v {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+
+
+.auto-h.top-left {
+	justify-content: start;
+	justify-items: start;
+
+	align-content: start;
+	align-items: start;
+}
+.auto-h.top-center {
+	justify-content: center;
+	justify-items: center;
+	
+	align-content: start;
+	align-items: start;
+}
+.auto-h.top-right {
+	justify-content: end;
+	justify-items: end;
+
+	align-content: start;
+	align-items: start;
+}
+.auto-h.top {
+	justify-content: space-between;
+	justify-items: stretch;
+
+	align-content: start;
+	align-items: start;
+}
+
+
+
+.auto-h.center-left {
+	justify-content: start;
+	justify-items: start;
+
+	align-content: center;
+	align-items: center;
+}
+.auto-h.center-center {
+	justify-content: center;
+	justify-items: center;
+
+	align-content: center;
+	align-items: center;
+}
+.auto-h.center-right {
+	justify-content: end;
+	justify-items: end;
+
+	align-content: center;
+	align-items: center;
+}
+.auto-h.center {
+	justify-content: space-between;
+	justify-items: stretch;
+
+	align-content: center;
+	align-items: center;
+}
+
+
+
+.auto-h.bottom-left {
+	justify-content: start;
+	justify-items: start;
+
+	align-content: end;
+	align-items: end;
+}
+.auto-h.bottom-center {
+	justify-content: center;
+	justify-items: center;
+
+	align-content: end;
+	align-items: end;
+}
+.auto-h.bottom-right {
+	justify-content: end;
+	justify-items: end;
+
+	align-content: end;
+	align-items: end;
+}
+.auto-h.bottom {
+	justify-content: space-between;
+	justify-items: stretch;
+
+	align-content: end;
+	align-items: end;
+}
+
+
+
+.auto-v.top-left {
+	justify-content: start;
+	justify-items: start;
+
+	align-content: start;
+	align-items: start;
+}
+.auto-v.center-left {
+	justify-content: center;
+	justify-items: center;
+	
+	align-content: start;
+	align-items: start;
+}
+.auto-v.bottom-left {
+	justify-content: end;
+	justify-items: end;
+
+	align-content: start;
+	align-items: start;
+}
+.auto-v.left {
+	justify-content: space-between;
+	justify-items: stretch;
+
+	align-content: start;
+	align-items: start;
+}
+
+
+
+.auto-v.top-center {
+	justify-content: start;
+	justify-items: start;
+
+	align-content: center;
+	align-items: center;
+}
+.auto-v.center-center {
+	justify-content: center;
+	justify-items: center;
+	
+	align-content: center;
+	align-items: center;
+}
+.auto-v.bottom-center {
+	justify-content: end;
+	justify-items: end;
+
+	align-content: center;
+	align-items: center;
+}
+.auto-v.center {
+	justify-content: space-between;
+	justify-items: stretch;
+
+	align-content: center;
+	align-items: center;
+}
+
+
+
+.auto-v.top-right {
+	justify-content: start;
+	justify-items: start;
+
+	align-content: end;
+	align-items: end;
+}
+.auto-v.center-right {
+	justify-content: center;
+	justify-items: center;
+	
+	align-content: end;
+	align-items: end;
+}
+.auto-v.bottom-right {
+	justify-content: end;
+	justify-items: end;
+
+	align-content: end;
+	align-items: end;
+}
+.auto-v.right {
+	justify-content: space-between;
+	justify-items: stretch;
+
+	align-content: end;
+	align-items: end;
+}

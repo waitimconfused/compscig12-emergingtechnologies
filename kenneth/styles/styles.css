@@ -1,0 +1,108 @@
+@import url("./auto-layout.css");
+@import url("./colours.css");
+@import url("../fonts/Quattrocento.css");
+@import url("../fonts/Poppins.css");
+
+body {
+	position: relative;
+	margin: 0px;
+	font-family: "Poppins";
+	min-height: 100vh;
+	box-sizing: border-box;
+}
+
+nav {
+	position: fixed;
+	z-index: 2147483647; /* Highest 32 bit int */
+	top: 40px;
+	left: 16px;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: max-content;
+}
+nav a {
+	scale: 1;
+	transition: scale 100ms ease-out;
+}
+nav a:hover {
+	scale: 1.25;
+	transition-timing-function: ease-in;
+}
+
+header, section, footer {
+	padding: 16px 10%;
+}
+
+header {
+	box-shadow:
+		inset -5vw 0 0 0 var(--background),
+		inset 5vw 0 0 0 var(--background),
+		inset 0 -1px 0 0 var(--color);
+}
+
+body,
+header, section, footer {
+	background: var(--background);
+	color: var(--color);
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Quattrocento";
+}
+
+.card {
+	display: block;
+	padding: 16px;
+	border: 2px solid var(--green);
+	border-radius: 8px;
+}
+
+a.card {
+	border: 2px solid var(--blue);	
+}
+a.card:hover {
+	box-shadow: 0 4px 16px 0 color-mix(in srgb, var(--blue) 50%, transparent);
+}
+
+a {
+	color: var(--blue);
+	cursor: pointer;
+}
+
+a.no-link {
+	text-decoration: none;
+	color: var(--color);
+}
+
+ul.no-mark,
+ol.no-mark {
+	list-style: none;
+	padding-left: 0;
+}
+
+blockquote {
+	background: light-dark( var(--green-dark), var(--green-light) );
+	padding: 16px 16px 16px 32px;
+	box-shadow:
+		inset 8px 0 0 0 light-dark( var(--green-light), var(--green-dark) ),
+		inset 16px 0 0 0 var(--background);
+}
+
+time {
+	font-family: monospace;
+}
+
+section > img {
+	position: relative;
+	left: 50%;
+	translate: -50% 0;
+	border-radius: 32px;
+}
